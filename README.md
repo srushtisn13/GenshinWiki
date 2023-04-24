@@ -10,7 +10,7 @@ To run the website:
     		user:<your_user_name>, //root is the user by default
     		password:<password>, //default password:"" 
     		database:'genshinwiki'
-	})```
+	})
 4. Once your database is created, its time to run the website!
 5. Under the client folder, navigate to src folder and run the command : ```npm start```
 6. Simultaneously, run ```node index.js``` in the server folder.
