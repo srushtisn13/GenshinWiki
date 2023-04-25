@@ -1,0 +1,53 @@
+.regions {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .regions h1 {
+    font-size: 40px;
+    color: white;
+  }
+  
+  .regionlist {
+    
+    width: 90vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  
+  /* MENU ITEM STYLING */
+  
+  .regionItem {
+    background-color: #2d325a;
+    color:white;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 95%;
+    height: 550px;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+  .regionItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .regionItem div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .regionItem p {
+    margin-left: 20px;
+  }

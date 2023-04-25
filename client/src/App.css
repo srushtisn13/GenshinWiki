@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height:auto;
+  display:flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  background-position: center;
+  background-size: cover;
+  /* background-image: linear-gradient(rgb(1, 0, 7),rgba(2, 7, 27, 0.7)); */
+  /* position: relative; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(3, 3, 3, 0.416)
+}
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+/* body{
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgb(1, 0, 7),rgba(2, 7, 27, 0.7)), url(media/20221013174526.png);
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */

@@ -1,0 +1,48 @@
+.Home .Header{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+  }
+
+  .Header {
+    width: auto;
+    /* margin-left: 50px; */
+  }
+  
+  .Home .Header h2 {
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 60px;
+    font-weight: 50;
+    color: white;
+  }
+
+  .Home .Header h3 {
+    justify-content: left;
+    align-items: left;
+    font-size: 20px;
+    height: 60px;
+    font-weight: 50;
+    color: white;
+  }
+
+  .Home .Header button {
+    background:transparent;
+    justify-content: center;
+    align-items: center;
+    margin-left:38%;
+    font-size: 25px;
+    height: 50px;
+    /* font-weight: 50; */
+    width:25%;
+    color: white;
+  }
+
+  .Home .Header button:hover {
+    background-color:black;
+    color: white;
+  }

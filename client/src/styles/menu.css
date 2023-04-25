@@ -1,0 +1,64 @@
+.Top {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+  }
+.Top .Logo {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items:baseline;
+    /* padding-left: 40px; */
+}
+.Top .Logo img {
+    width: 70px;
+  }
+
+.Top .Menu {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-top: 50px;
+    padding-right: 25px;
+}  
+/* .Homecontent{
+    padding-top: 50px;;
+} */
+.Menu a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.Top h1{
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items:baseline;
+    color:white;
+    /* padding-left: 40px; */
+}
+  
+.Top .Menu button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* .Top .Menu svg {
+    font-size: 40px;
+} */
+
+/* .Menu::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(130, 58, 223);
+    display: block;
+    margin: auto;
+    transition:0.5s;
+} */
