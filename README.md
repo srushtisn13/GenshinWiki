@@ -1,9 +1,9 @@
 # GenshinWiki
 
-GenshinWiki is simple crud operation website made with NodeJs, ReactJs and MySQL for database.
+GenshinWiki is simple CRUD operation React web application made with NodeJs, ReactJs and MySQL for database.
 To run the website:
 1. Install all the necessary libraries like express, body-parser, nodemon(this one's optional) 
-2. Import all the tables into your sql database(I would recommend naming the database: 'genshinwiki'
+2. Import all the tables into your sql database using the sql file given (I would recommend naming the database: 'genshinwiki')
 3. Change the following piece of code in index.js file in server folder:
 
 	```const db = mysql.createConnection({```
